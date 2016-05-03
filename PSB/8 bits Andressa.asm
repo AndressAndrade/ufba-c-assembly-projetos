@@ -1,4 +1,3 @@
-;Andressa Silva Valente de Andrade
 
 %include "asm_io.inc"
 
