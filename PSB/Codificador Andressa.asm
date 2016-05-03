@@ -1,4 +1,3 @@
-;Andressa Silva Valente de Andrade
 
 %include "asm_io.inc"
 
@@ -38,7 +37,7 @@ _asm_main:
         mov     eax, prompt1      ; entre um numero n
         call    print_string
 	
-        call    read_int          ; lê inteiro
+        call    read_int          ; lÃª inteiro
         mov     dl, al     	  ; guarda numero n
 
 
