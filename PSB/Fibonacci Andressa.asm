@@ -1,4 +1,4 @@
-;Andressa Silva Valente de Andrade
+
 %include "asm_io.inc"
 ;
 ; initialized data is put in the .data segment
@@ -80,7 +80,7 @@ _asm_main:
 		call    print_int         ; Imprime entrada
 		call    print_nl          ; print new-line
         	mov     eax, outmsg2
-        	call    print_string      ; O fibonacci é
+        	call    print_string      ; O fibonacci Ã©
         	mov     eax, ebx
         	call    print_int         ; resultado du fibonacci
         	call    print_nl          ; print new-line
